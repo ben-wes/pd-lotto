@@ -1,4 +1,4 @@
-#N canvas 645 319 1000 795 10;
+#N canvas 645 319 1000 588 10;
 #X obj 277 142 t f b;
 #X obj 277 163 until;
 #X obj 277 184 f;
@@ -63,6 +63,7 @@
 #X obj 34 236 expr -b\$0/(2*a\$0+0.00001) \; a\$0 = ($f1 + $f3 - 2*$f2) / 2 \; b\$0 = ($f3 - $f1)/2 \;;
 #X floatatom 141 327 5 0 0 0 - - - 0;
 #X obj 598 65 r \$1-temperature;
+#X text 807 519 Ben Wesch \, 2025;
 #X connect 0 0 1 0;
 #X connect 0 1 4 0;
 #X connect 1 0 2 0;

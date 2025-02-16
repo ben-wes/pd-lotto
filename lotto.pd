@@ -1,6 +1,4 @@
-#N struct 1028-struct float x0 float y0 float c float f;
-#N struct 1029-struct float x0 float y0 float c float f;
-#N struct 1030-struct float x0 float y0 float c float f;
+#N struct 1057-struct float x0 float y0 float c float f;
 #N canvas 335 124 745 623 10;
 #N canvas 44 60 1742 1031 gui 0;
 #X obj 472 738 bng 16 250 50 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000;

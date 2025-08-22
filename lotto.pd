@@ -1,6 +1,6 @@
-#N struct 1081-struct float x0 float y0 float c float f;
-#N struct 1082-struct float x0 float y0 float c float f;
-#N struct 1083-struct float x0 float y0 float c float f;
+#N struct 1137-struct float x0 float y0 float c float f;
+#N struct 1138-struct float x0 float y0 float c float f;
+#N struct 1139-struct float x0 float y0 float c float f;
 #N canvas 601 202 745 613 10;
 #N canvas 57 61 1717 1017 gui 0;
 #X obj 472 717 loadbang;
@@ -562,7 +562,7 @@
 #X msg 573 814 color 92;
 #X obj 40 40 cnv 16 740 607 empty empty empty 20 12 0 10 #f2f2f2 #404040 0;
 #X obj 532 97 tgl 15 0 \$0-measure-snd \$0-measure-rcv Run\ measurements 18 8 0 10 #6aee00 #000000 #000000 0 1;
-#X obj 93 97 hsl 100 15 -20 20 0 0 \$0-offset \$0-offset-rcv offset\ (ms) 104 7 0 10 #fcfcfc #000000 #000000 0 1;
+#X obj 93 97 hsl 100 15 -100 20 0 0 \$0-offset \$0-offset-rcv offset\ (ms) 104 7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 532 77 bng 15 250 50 0 \$0-calibrate _r Calibrate 18 7 0 10 #deffdf #000000 #000000;
 #X obj 48 213 x/display x y \$0;
 #X obj 532 213 x/display x z \$0;
@@ -647,7 +647,6 @@
 #X obj 885 530 hip~ 4000;
 #X obj 948 530 hip~ 4000;
 #X obj 1011 530 hip~ 4000;
-#X obj 905 256 print nr;
 #X obj 966 480 dac~;
 #X obj 1218 132 x/get_peak_abs \$0 3;
 #X obj 1241 153 x/get_peak_abs \$0 4;
@@ -811,7 +810,7 @@
 #X connect 1 0 2 0;
 #X connect 1 0 145 0;
 #X connect 2 0 16 0;
-#X connect 3 0 215 0;
+#X connect 3 0 214 0;
 #X connect 4 0 76 0;
 #X connect 6 0 147 0;
 #X connect 6 0 189 0;
@@ -839,7 +838,7 @@
 #X connect 33 0 13 0;
 #X connect 33 0 15 0;
 #X connect 33 0 14 0;
-#X connect 34 0 215 0;
+#X connect 34 0 214 0;
 #X connect 35 0 13 0;
 #X connect 35 0 14 0;
 #X connect 35 0 15 0;
@@ -943,7 +942,6 @@
 #X connect 107 1 98 0;
 #X connect 108 0 64 0;
 #X connect 109 0 204 0;
-#X connect 109 0 214 0;
 #X connect 110 0 94 1;
 #X connect 111 0 95 1;
 #X connect 112 0 96 1;
@@ -970,10 +968,10 @@
 #X connect 133 1 134 0;
 #X connect 134 0 65 0;
 #X connect 136 0 109 0;
-#X connect 136 1 219 0;
-#X connect 136 2 218 0;
-#X connect 136 3 216 0;
-#X connect 136 4 217 0;
+#X connect 136 1 218 0;
+#X connect 136 2 217 0;
+#X connect 136 3 215 0;
+#X connect 136 4 216 0;
 #X connect 136 5 62 0;
 #X connect 137 0 133 0;
 #X connect 138 0 144 0;
@@ -986,7 +984,7 @@
 #X connect 142 0 141 0;
 #X connect 143 0 201 0;
 #X connect 144 0 8 0;
-#X connect 144 0 220 0;
+#X connect 144 0 219 0;
 #X connect 145 0 26 0;
 #X connect 145 2 62 1;
 #X connect 145 3 109 1;
@@ -1021,10 +1019,10 @@
 #X connect 211 0 55 1;
 #X connect 212 0 55 2;
 #X connect 213 0 55 3;
-#X connect 216 0 11 0;
-#X connect 217 0 12 0;
-#X connect 218 0 10 0;
-#X connect 219 0 198 0;
-#X connect 220 0 136 0;
+#X connect 215 0 11 0;
+#X connect 216 0 12 0;
+#X connect 217 0 10 0;
+#X connect 218 0 198 0;
+#X connect 219 0 136 0;
 #X coords 0 -1 1 1 740 607 2 40 40;
 #X restore 2 3 pd gui;
